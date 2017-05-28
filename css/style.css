@@ -1,622 +1,280 @@
-/*
-    Theme Name: Mamba
-    Theme URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-/* ================================
-Imports
-================================= */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
-@import url('font-awesome.min.css');
-@import url('overwrite.css');
-@import url('dlmenu.css');
-@import url('animate.css');
-
-/* ================================
-General
-================================= */
-body{
-	margin:0;
-	padding:0;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 1.6em;
-	
-}
-
-h1 {
-	font-size: 36px;
-}
-h2 {
-	font-size: 32px;
-}
-h3 {
-	font-size: 28px;
-}
-h4 {
-	font-size: 24px;
-}
-h5 {
-	font-size: 20px;
-}
-h6 {
-	font-size: 18px;
-}
-
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-	color: #3a3a3a;
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-
-.lead{
-	font-weight: 400;
-}
-
-button {
-	display: inline-block;
-	margin-bottom: 0;
-	margin-bottom: 10px;
-	padding: 6px 12px;
-	border: 1px solid transparent;
-	vertical-align: middle;
-	text-align: center;
-	white-space: nowrap;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 1.428571429;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-button.navbar-toggle {
-	background: #2b2b2b;
-	border: none;
-	color: #fff;
-}
-
-.btn-theme,.btn-theme:hover,.btn-theme:focus{
-	color: #fff;
-}
-.btn-theme:hover{
-	background: transparent !important;
-	border-color: #999;
-	color: #999;
-}
-
-
-/* ================================
-margin, padding
-================================= */
-.mar-top0 {
-	margin-top: 0;
-}
-.mar-top10 {
-	margin-top: 10px;
-}
-.mar-top20 {
-	margin-top: 20px;
-}
-.mar-top30 {
-	margin-top: 30px;
-}
-.mar-top40 {
-	margin-top: 40px;
-}
-
-
-
-/* ================================
-Home sections
-================================= */
-
-.home-section {
-	width: 100%;
-	padding: 90px 0px 150px 0px;
-}
-
-/* --- heading --- */
-.section-heading {
-	margin-bottom: 70px;
-}
-	
-.section-heading h2 {
-	font-size: 38px;
-	text-transform: uppercase;
-}
-	
-.section-heading .heading-line {
-	margin:0 auto;
-	display: block;
-	height: 1px;
-	width: 80px;
-	background: #333;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-	
-/* --- section bg var --- */
-
-.bg-white {
-	background: #fff;
-}
-
-.bg-gray {
-	background: #f8f8f8;
-}
-
-.bg-dark {
-	background: #575757;
-}
-
-
-/* --- section content general color --- */
-
-.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
-	color: #fff;
-}
-
-
-.color-light p {
-	color: #eee;
-}
-
-
-/* ==========================
-Spacer
-============================= */
-
-#spacer1{	
-	background-image: url(http://moxetkhan.com/wp-content/uploads/2015/05/IMG_1625.jpg);
-}
-#spacer2{	
-	background-image: url(../img/spacer/2.jpg);
-}
-
-
-/* ================================
-Intro
-================================= */
-
-#intro{
-    height:635px;
-    width:100%;
-    background-color: #529abb;
-    background-image: url(../img/bg-mac.png);
-    background-position:center;
-    background-repeat:no-repeat;
-    overflow-y:hidden;
-    text-align:center;
-    position:relative;
-}
-
-
-
-.intro-text {
-	position:relative;
-	width:100%;
-	margin-top:200px;
-	z-index:1000;
-}
-#intro .brand {
-	margin-top: 40px;
-}
-.intro-text h1 a {
-	color:#fff;
-	text-align:center;
-	font-weight: 700;
-	font-size: 40px; 
-	line-height:1.1em;
-	padding-top:30px;
-	text-transform: uppercase;	
-}
-.intro-text h1 a:hover {
-	text-decoration: none;
-}
-
-.line-spacer {
-	width: 20%;
-	margin:0 auto;
-	margin-top: 20px;
-	margin-bottom: 25px;
-	border-bottom:1px solid #fff;
-}
-
-.intro-text p span {
-	color:#fff;
-	font-size: 24px;
-	text-align:center;
-	font-weight: 300;
-}
-
-/* ================================
-About
-================================= */
-.box-team img {
-	margin-bottom: 30px;
-}
-
-.text-primary {
-	color: white;
-}
-
-
-
-/* ================================
-Services
-================================= */
-
-.service-box p {
-	margin-bottom: 20px;
-}
-
-.service.carousel h4,.service.carousel p {
-	text-align: left;
-}
-
-
-.service .carousel-control{
-	background: none;
-}
-
-.service .screenshot{
-	overflow: hidden;
-	overflow: hidden;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.service .screenshot img{
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 4px;
-	width: 400px;
-}
-
-.service .carousel-indicators {
-	position: relative;
-	bottom: 0;
-	left: 0;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding: 5px;
-	padding-bottom: 8px;
-	width: 100%;
-	background: #ffffff;
-}
-
-.service .carousel-indicators .active {
-	width: 45px;
-	height: 5px;
-	border: none;
-	border-radius: 0px;
-}
-
-.service .carousel-indicators li {
-	display: inline-block;
-	margin: 1px;
-	width: 45px;
-	height: 5px;
-	border: none;
-	border-radius: 0px;
-	background: #eeeeee;
-	text-indent: -999px;
-	cursor: pointer;
-}
-
-
-/* ================================
-Works
-================================= */
-
-
-.lb-album{
-	margin-left:40px;
-	list-style: none;
-	width: 100%;
-	margin: 0 auto;
-}
-.lb-album li{
-	float: left;
-	margin: 10px;
-	position: relative;
-}
-.lb-album li > a,
-.lb-album li > a img{
-	display: block;
-}
-.lb-album li > a{
-	width: 150px;
-	height: 150px;
-	position: relative;
-	padding: 0;
-	background: #2b2b2b;
-}
-.lb-album li > a span{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	top: 0;
-	left: 0;
-	text-align: center;
-	line-height: 150px;
-	color: rgba(27,54,81,0.8);
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-	font-size: 24px;
-	opacity: 0;
-	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-	background: rgb(241,210,194);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(241,210,194,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(241,210,194,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	-webkit-transition: opacity 0.3s linear;
-	-moz-transition: opacity 0.3s linear;
-	-o-transition: opacity 0.3s linear;
-	-ms-transition: opacity 0.3s linear;
-	transition: opacity 0.3s linear;
-}
-.lb-album li > a:hover span{
-	opacity: 1;
-	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
-}
-.lb-overlay{
-	width: 0px;
-	height: 0px;
-	position: fixed;
-	overflow: hidden;
-	left: 0px;
-	top: 0px;
-	padding: 0px;
-	z-index: 99;
-	text-align: center;
-	background: rgb(241,210,194);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(241,210,194,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(241,210,194,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
-}
-.lb-overlay > div{
-	position: relative;
-	color: rgba(27,54,81,0.8);
-	opacity: 0;
-	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-	width: 550px;
-	margin: 10px auto 0px auto;
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-	-webkit-transition: opacity 0.3s linear 1.3s;
-	-moz-transition: opacity 0.3s linear 1.3s;
-	-o-transition: opacity 0.3s linear 1.3s;
-	-ms-transition: opacity 0.3s linear 1.3s;
-	transition: opacity 0.3s linear 1.3s;
-}
-.lb-overlay div h3,
-.lb-overlay div p{
-	padding: 0px 20px;
-	width: 200px;
-	height: 60px;
-}
-.lb-overlay div h3{
-	font-size: 32px;
-	margin-top:0;
-	float: left;
-	text-align: right;
-	border-right: 1px solid rgba(27,54,81,0.4);
-	text-shadow: none;
-	color: #fff;
-}
-.lb-overlay div h3 span,
-.lb-overlay div p{
-	font-size: 16px;
-	text-shadow: none;
-	color: #fff;
-}
-.lb-overlay div h3 span{
-	display: block;
-	line-height: 6px;
-}
-.lb-overlay div p{
-	text-align: left;
-	float: left;
-	width: 260px;
-}
-.lb-overlay a.lb-close{
-	
-	z-index: 1001;
-	color: #fff;
-	position: absolute;
-	top: 43px;
-	left: 50%;
-	
-	font-size: 28px;
-	line-height: 26px;
-	text-align: center;
-	width: 50px;
-	height: 23px;
-	overflow: hidden;
-	margin-left: -25px;
-	opacity: 0;
-	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-	-webkit-transition: opacity 0.3s linear 1.2s;
-	-moz-transition: opacity 0.3s linear 1.2s;
-	-o-transition: opacity 0.3s linear 1.2s;
-	-ms-transition: opacity 0.3s linear 1.2s;
-	transition: opacity 0.3s linear 1.2s;
-}
-.lb-overlay img{
-	/* height: 100%; For Opera max-height does not seem to work */
-	max-height: 100%;
-	position: relative;
-	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
-}
-.lb-overlay:target {
-	width: auto;
-	height: auto;
-	bottom: 0px;
-	right: 0px;
-	padding: 80px 100px 120px 100px;
-}
-.lb-overlay:target img {
-	-webkit-animation: fadeInScale 1.2s ease-in-out;
-	-moz-animation: fadeInScale 1.2s ease-in-out;
-	-o-animation: fadeInScale 1.2s ease-in-out;
-	-ms-animation: fadeInScale 1.2s ease-in-out;
-	animation: fadeInScale 1.2s ease-in-out;
-}
-.lb-overlay:target a.lb-close,
-.lb-overlay:target > div{
-	opacity: 1;
-	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
-}
-@-webkit-keyframes fadeInScale {
-  0% { -webkit-transform: scale(0.6); opacity: 0; }
-  100% { -webkit-transform: scale(1); opacity: 1; }
-}
-@-moz-keyframes fadeInScale {
-  0% { -moz-transform: scale(0.6); opacity: 0; }
-  100% { -moz-transform: scale(1); opacity: 1; }
-}
-@-o-keyframes fadeInScale {
-  0% { -o-transform: scale(0.6); opacity: 0; }
-  100% { -o-transform: scale(1); opacity: 1; }
-}
-@-ms-keyframes fadeInScale {
-  0% { -ms-transform: scale(0.6); opacity: 0; }
-  100% { -ms-transform: scale(1); opacity: 1; }
-}
-@keyframes fadeInScale {
-  0% { transform: scale(0.6); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-/* 
-	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
-	http://bricss.net/post/11230266445/css-hack-to-target-opera 
-*/
-x:-o-prefocus, .lb-overlay img {
-    height: 100%;
-}
-
-
-/* ================================
-Contact
-================================= */
-
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
-
-/* ================================
-Bottom widget
-================================= */
-ul.social-network {	
-	margin: 0;
-	margin-left:0;
-	padding-left: 0;
-	list-style: none;
-}
-ul.social-network li {
-	display: inline;
-	margin: 5px 5px;
-}
-
-ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
-}
-
-/* ================================
-Footer
-================================= */
-footer {
-	background: #2b2b2b;
-	color: #ddd;
-	padding: 50px 0 30px;
-}
-
-
-/* ================================
-more media queries
-================================= */
-
-@media (max-width:768px) {
-	#intro{
-		background-image: url(../img/bg-mac.png);
-		background-size:100%;
-	}
-	.box-team, .box-team img {
-		text-align: center;
-	}
-	.box-team img {
-		float: none;
-		margin:0 auto;
-	}	
-	.box-team {
-		margin-bottom: 30px;
-	}
-
-	
-}
-
-@media (max-width:992px) {
-
-
-	.service p{
-			margin-bottom: 60px;
-	}
-
-}
-
-@media (max-width:480px){
-	#intro{
-		background-image: none;
-	}
-}
+/* BASE
+============================================================================= */
+@import url(http://fonts.googleapis.com/css?family=Offside);
+
+html                            { overflow-y:scroll; }
+body                            { 
+  background: url('../bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about {
+    background: #fff; 
+    margin: 0; 
+    color: #5a5a5a;
+}
+/* HEADER
+============================================================================= */
+#header                         { margin-bottom:20px; }
+
+    /* logo */
+    #logo                       { color:#fff; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
+    #logo span                  { display:inline-block; }
+    #danger                     { margin-right: 60px; }
+
+/* MAIN NAV
+============================================================================= */
+#main-nav                       { margin-bottom:30px; }
+
+/* SIDEBAR
+============================================================================= */
+#sidebar                        {  }
+
+#sidebar-nav                    {  }
+#sidebar-nav ul                 { list-style:none; padding-left:0; }
+#sidebar-nav li                 {  }
+#sidebar-nav a                  { background:#428bca; color:#FFF; display:block; margin-bottom:10px; text-transform:uppercase;
+    border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
+}
+    #sidebar-nav a:hover        { background:#3276b1; text-decoration:none; }
+
+/* CONTENT
+============================================================================= */
+#content                        { background:#FFF; min-height:400px; padding:20px;
+    border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
+}
+#content img                    { border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; }
+
+/* ANIMATIONS
+============================================================================= */
+
+    /* logo */
+    .dd                         { animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
+    .da                         { animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s; }
+    .dn                         { animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+    .dg                         { animation-delay:1s; -moz-animation-delay:1s; -webkit-animation-delay:1s; }
+    .de                         { animation-delay:0.4s; -moz-animation-delay:0.4s; -webkit-animation-delay:0.4s; }
+    .dr                         { animation-delay:1.2s; -moz-animation-delay:1.2s; -webkit-animation-delay:1.2s; }
+
+    .zz                         { animation-delay:1.4s; -moz-animation-delay:1.4s; -webkit-animation-delay:1.4s; }
+    .zo                         { animation-delay:0.4s; -moz-animation-delay:0.4s; -webkit-animation-delay:0.4s; }
+    .zn                         { animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+    .ze                         { animation-delay:0.5s; -moz-animation-delay:0.5s; -webkit-animation-delay:0.5s; }
+
+    /* sidebar */
+    #side-home                  { animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
+    #side-about                 { animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+    #side-work                  { animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s; }
+    #side-contact               { animation-delay:0.3s; -moz-animation-delay:0.3s; -webkit-animation-delay:0.3s; }
+
+    /* content */
+    #content                    { animation-delay:1.5s; -moz-animation-delay:1.5s; -webkit-animation-delay:1.5s; }
+        #content img            { animation-delay:1.7s; -moz-animation-delay:1.7s; -webkit-animation-delay:1.7s; }
+
+.animate-reveal {
+  font: bold 1.5em sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0;
+  -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+     -moz-animation: reveal 1s ease-in 1 normal forwards;
+       -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+          animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+h2 { text-align: center; color: #CCC; }
+
+a:hover { color: #777; }
+
+/* NAVIGATION */
+.navigation {
+  list-style: none;
+  padding: 0;
+  width: 250px; 
+  height: 40px; 
+  margin: 20px auto;
+  background: #95C11F;
+}
+
+.navigation, .navigation a.main {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.navigation:hover, .navigation:hover a.main {
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+}
+
+.navigation a.main {
+  display: block; 
+  height: 40px;
+  font: bold 15px/40px arial, sans-serif; 
+  text-align: center; 
+  text-decoration: none; 
+  color: #FFF;  
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.navigation:hover a.main {
+  color: rgba(255,255,255,0.6);
+  background: rgba(0,0,0,0.04);
+}
+
+.navigation li { 
+  width: 250px; 
+  height: 40px;
+  background: #F7F7F7;
+  font: normal 12px/40px arial, sans-serif !important; 
+  color: #999;
+  text-align: center;
+  margin: 0;
+  -webkit-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+  -o-transform: perspective(350px) rotateX(-90deg);
+  transform: perspective(350px) rotateX(-90deg);
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.navigation li:nth-child(even) { background: #F5F5F5; }
+.navigation li:nth-child(odd) { background: #EFEFEF; }
+
+.navigation li.n1 { 
+  -webkit-transition: 0.2s linear 0.8s;
+  -o-transition: 0.2s linear 0.8s;
+  transition: 0.2s linear 0.8s;
+}
+.navigation li.n2 {
+  -webkit-transition: 0.2s linear 0.6s;
+  -o-transition: 0.2s linear 0.6s;
+  transition: 0.2s linear 0.6s;
+}
+.navigation li.n3 {
+  -webkit-transition: 0.2s linear 0.4s;
+  -o-transition: 0.2s linear 0.4s;
+  transition: 0.2s linear 0.4s;
+}
+.navigation li.n4 { 
+  -webkit-transition:0.2s linear 0.2s;
+  -o-transition:0.2s linear 0.2s;
+  transition:0.2s linear 0.2s;
+}
+.navigation li.n5 {
+  border-radius: 0px 0px 4px 4px;
+  -webkit-transition: 0.2s linear 0s;
+  -o-transition: 0.2s linear 0s;
+  transition: 0.2s linear 0s;
+}
+
+.navigation:hover li {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition:0.2s linear 0s;
+  -o-transition:0.2s linear 0s;
+  transition:0.2s linear 0s;
+}
+.navigation:hover .n2 {
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.navigation:hover .n3 {
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.navigation:hover .n4 {
+  transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.navigation:hover .n5 {
+  -webkit-transition-delay: 0.8s;
+  -o-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+
+
+
+
+.rotate { font-size: 25px; }
